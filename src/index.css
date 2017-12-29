@@ -1,0 +1,59 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    height: 20px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding: 0;
+    width: 20px;
+    opacity: 0.5;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+
+  .pelilauta {
+    background-size: cover;
+    width: 900px;
+    height: 600px;
+  }
+
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .move-info {
+    display: table;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  
